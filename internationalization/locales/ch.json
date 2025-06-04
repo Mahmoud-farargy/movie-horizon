@@ -1,0 +1,67 @@
+{
+  "popular_movies": "热门电影",
+  "top_rated_movies": "评分最高的电影",
+  "upcoming_movies": "即将上映的电影",
+  "now_playing_movies": "正在上映的电影",
+  "popular_tv_shows": "热门电视剧",
+  "top_rated_tv_shows": "评分最高的电视剧",
+  "tv_shows_airing_today": "今日播出电视剧",
+
+  "watch_trailer": "观看预告片",
+  "explore_more": "查看更多",
+
+  "overview": "概览",
+  "videos": "视频",
+  "media_photos": "照片",
+
+  "cast": "主演",
+  "more_like_this": "更多类似",
+
+  "storyline": "剧情简介",
+  "release_date": "上映日期",
+  "runtime": "片长",
+  "director": "导演",
+  "budget": "预算",
+  "revenue": "收入",
+  "genre": "类型",
+  "status": "状态",
+  "language": "语言",
+  "production": "制作",
+
+  "backdrops": "背景图",
+  "posters": "海报",
+
+  "known_for": "代表作",
+  "credits": "演职员表",
+  "person_photos": "照片",
+  "no_biography": "(无传记)",
+  "place_of_birth": "出生地",
+  "birthday": "生日",
+
+  "acting_credits": "演出",
+  "production_credits": "制作",
+
+  "type_to_search": "输入以搜索...",
+  "type_something_to_search": "输入内容以搜索",
+
+  "number_of_reviews": "{numberOfReviews} 条评论",
+  "number_of_images": "{numberOfImages} 张图片",
+  "number_of_videos": "{numberOfVideos} 个视频",
+
+  "as_character": "饰演 {character}",
+  "count_items": "{count} 项",
+  "empty_list": "无数据",
+  "search_result_for": "搜索结果：{currentSearch}",
+
+  "error_occurred_on_fetching": "加载时出错",
+  "retry": "重试",
+
+  "home": "首页",
+  "movies": "电影",
+  "tv_shows": "电视剧",
+  "search": "搜索",
+
+  "made_by": "制作",
+  "disclaimer": "该项目使用 TMDB API，但未获得 TMDB 的认可和认证。",
+  "data_provided_by": "数据提供者"
+}

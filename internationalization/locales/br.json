@@ -1,0 +1,67 @@
+{
+  "popular_movies": "Filmes populares",
+  "top_rated_movies": "Filmes mais bem avaliados",
+  "upcoming_movies": "Filmes futuros",
+  "now_playing_movies": "Filmes em cartaz",
+  "popular_tv_shows": "Programas de TV populares",
+  "top_rated_tv_shows": "Programas de TV mais bem avaliados",
+  "tv_shows_airing_today": "Programas de TV exibidos hoje",
+
+  "watch_trailer": "Assistir trailer",
+  "explore_more": "Explorar mais",
+
+  "overview": "Visão geral",
+  "videos": "Vídeos",
+  "media_photos": "Fotos",
+
+  "cast": "Elenco principal",
+  "more_like_this": "Mais como este",
+
+  "storyline": "Enredo",
+  "release_date": "Lançamento",
+  "runtime": "Duração",
+  "director": "Diretor",
+  "budget": "Orçamento",
+  "revenue": "Receita",
+  "genre": "Gênero",
+  "status": "Status",
+  "language": "Idioma",
+  "production": "Produção",
+
+  "backdrops": "Cenários",
+  "posters": "Pôsteres",
+
+  "known_for": "Conhecido por",
+  "credits": "Créditos",
+  "person_photos": "Fotos",
+  "no_biography": "(sem biografia)",
+  "place_of_birth": "Local de nascimento",
+  "birthday": "Aniversário",
+
+  "acting_credits": "Atuação",
+  "production_credits": "Produção",
+
+  "type_to_search": "Digite para pesquisar...",
+  "type_something_to_search": "Digite algo para pesquisar",
+
+  "number_of_reviews": "{numberOfReviews} avaliações",
+  "number_of_images": "{numberOfImages} imagens",
+  "number_of_videos": "{numberOfVideos} vídeos",
+
+  "as_character": "como {character}",
+  "count_items": "{count} itens",
+  "empty_list": "Nenhum dado disponível",
+  "search_result_for": "Resultado da pesquisa para: {currentSearch}",
+
+  "error_occurred_on_fetching": "Ocorreu um erro ao buscar",
+  "retry": "Tentar novamente",
+
+  "home": "Início",
+  "movies": "Filmes",
+  "tv_shows": "Programas de TV",
+  "search": "Pesquisar",
+
+  "made_by": "Feito por",
+  "disclaimer": "Este projeto usa a API do TMDB, mas não é endossado ou certificado pelo TMDB.",
+  "data_provided_by": "Dados fornecidos por"
+}

@@ -1,0 +1,67 @@
+{
+  "popular_movies": "Phim phổ biến",
+  "top_rated_movies": "Phim được đánh giá cao",
+  "upcoming_movies": "Phim sắp ra mắt",
+  "now_playing_movies": "Phim đang chiếu",
+  "popular_tv_shows": "Chương trình truyền hình phổ biến",
+  "top_rated_tv_shows": "Chương trình truyền hình được đánh giá cao",
+  "tv_shows_airing_today": "Chương trình truyền hình phát sóng hôm nay",
+
+  "watch_trailer": "Xem trailer",
+  "explore_more": "Khám phá thêm",
+
+  "overview": "Tổng quan",
+  "videos": "Video",
+  "media_photos": "Ảnh",
+
+  "cast": "Diễn viên chính",
+  "more_like_this": "Thêm những cái tương tự",
+
+  "storyline": "Cốt truyện",
+  "release_date": "Ngày phát hành",
+  "runtime": "Thời lượng",
+  "director": "Đạo diễn",
+  "budget": "Ngân sách",
+  "revenue": "Doanh thu",
+  "genre": "Thể loại",
+  "status": "Trạng thái",
+  "language": "Ngôn ngữ",
+  "production": "Sản xuất",
+
+  "backdrops": "Phông nền",
+  "posters": "Áp phích",
+
+  "known_for": "Nổi tiếng với",
+  "credits": "Tín dụng",
+  "person_photos": "Ảnh",
+  "no_biography": "(không có tiểu sử)",
+  "place_of_birth": "Nơi sinh",
+  "birthday": "Ngày sinh",
+
+  "acting_credits": "Diễn xuất",
+  "production_credits": "Sản xuất",
+
+  "type_to_search": "Nhập để tìm kiếm...",
+  "type_something_to_search": "Nhập cái gì đó để tìm kiếm",
+
+  "number_of_reviews": "{numberOfReviews} bài đánh giá",
+  "number_of_images": "{numberOfImages} hình ảnh",
+  "number_of_videos": "{numberOfVideos} video",
+
+  "as_character": "vai {character}",
+  "count_items": "{count} mục",
+  "empty_list": "Không có dữ liệu",
+  "search_result_for": "Kết quả tìm kiếm cho: {currentSearch}",
+
+  "error_occurred_on_fetching": "Lỗi khi tải dữ liệu",
+  "retry": "Thử lại",
+
+  "home": "Trang chủ",
+  "movies": "Phim",
+  "tv_shows": "Chương trình truyền hình",
+  "search": "Tìm kiếm",
+
+  "made_by": "Được tạo bởi",
+  "disclaimer": "Dự án này sử dụng API TMDB nhưng không được TMDB phê duyệt hoặc chứng nhận.",
+  "data_provided_by": "Dữ liệu được cung cấp bởi"
+}

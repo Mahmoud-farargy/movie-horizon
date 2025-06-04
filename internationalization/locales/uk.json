@@ -1,0 +1,67 @@
+{
+  "popular_movies": "Популярні фільми",
+  "top_rated_movies": "Найкращі фільми",
+  "upcoming_movies": "Найближчі фільми",
+  "now_playing_movies": "Фільми в прокаті",
+  "popular_tv_shows": "Популярні телешоу",
+  "top_rated_tv_shows": "Найкращі телешоу",
+  "tv_shows_airing_today": "Телешоу, що виходять сьогодні",
+
+  "watch_trailer": "Дивитися трейлер",
+  "explore_more": "Дізнатися більше",
+
+  "overview": "Огляд",
+  "videos": "Відео",
+  "media_photos": "Фотографії",
+
+  "cast": "Головний склад",
+  "more_like_this": "Більше подібного",
+
+  "storyline": "Сюжет",
+  "release_date": "Дата виходу",
+  "runtime": "Тривалість",
+  "director": "Режисер",
+  "budget": "Бюджет",
+  "revenue": "Дохід",
+  "genre": "Жанр",
+  "status": "Статус",
+  "language": "Мова",
+  "production": "Виробництво",
+
+  "backdrops": "Фони",
+  "posters": "Постери",
+
+  "known_for": "Відомий за",
+  "credits": "Кредити",
+  "person_photos": "Фотографії",
+  "no_biography": "(без біографії)",
+  "place_of_birth": "Місце народження",
+  "birthday": "Дата народження",
+
+  "acting_credits": "Акторська гра",
+  "production_credits": "Виробництво",
+
+  "type_to_search": "Введіть для пошуку...",
+  "type_something_to_search": "Введіть щось для пошуку",
+
+  "number_of_reviews": "{numberOfReviews} відгуків",
+  "number_of_images": "{numberOfImages} зображень",
+  "number_of_videos": "{numberOfVideos} відео",
+
+  "as_character": "в ролі {character}",
+  "count_items": "{count} елементів",
+  "empty_list": "Дані відсутні",
+  "search_result_for": "Результати пошуку для: {currentSearch}",
+
+  "error_occurred_on_fetching": "Помилка при завантаженні",
+  "retry": "Спробувати ще раз",
+
+  "home": "Головна",
+  "movies": "Фільми",
+  "tv_shows": "Телешоу",
+  "search": "Пошук",
+
+  "made_by": "Створено",
+  "disclaimer": "Цей проект використовує API TMDB, але не підтримується і не сертифікований TMDB.",
+  "data_provided_by": "Дані надано"
+}

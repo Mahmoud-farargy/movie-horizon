@@ -1,0 +1,67 @@
+{
+  "popular_movies": "Films populaires",
+  "top_rated_movies": "Films les mieux notés",
+  "upcoming_movies": "Films à venir",
+  "now_playing_movies": "Films à l'affiche",
+  "popular_tv_shows": "Séries TV populaires",
+  "top_rated_tv_shows": "Séries TV les mieux notées",
+  "tv_shows_airing_today": "Séries TV diffusées aujourd'hui",
+
+  "watch_trailer": "Voir la bande-annonce",
+  "explore_more": "Explorer plus",
+
+  "overview": "Résumé",
+  "videos": "Vidéos",
+  "media_photos": "Photos",
+
+  "cast": "Distribution principale",
+  "more_like_this": "Plus comme ça",
+
+  "storyline": "Synopsis",
+  "release_date": "Date de sortie",
+  "runtime": "Durée",
+  "director": "Réalisateur",
+  "budget": "Budget",
+  "revenue": "Revenu",
+  "genre": "Genre",
+  "status": "Statut",
+  "language": "Langue",
+  "production": "Production",
+
+  "backdrops": "Décors",
+  "posters": "Affiches",
+
+  "known_for": "Connu pour",
+  "credits": "Crédits",
+  "person_photos": "Photos",
+  "no_biography": "(pas de biographie)",
+  "place_of_birth": "Lieu de naissance",
+  "birthday": "Anniversaire",
+
+  "acting_credits": "Interprétation",
+  "production_credits": "Production",
+
+  "type_to_search": "Tapez pour chercher...",
+  "type_something_to_search": "Tapez quelque chose pour chercher",
+
+  "number_of_reviews": "{numberOfReviews} avis",
+  "number_of_images": "{numberOfImages} images",
+  "number_of_videos": "{numberOfVideos} vidéos",
+
+  "as_character": "en tant que {character}",
+  "count_items": "{count} éléments",
+  "empty_list": "Aucune donnée disponible",
+  "search_result_for": "Résultat de recherche pour : {currentSearch}",
+
+  "error_occurred_on_fetching": "Une erreur est survenue lors du chargement",
+  "retry": "Réessayer",
+
+  "home": "Accueil",
+  "movies": "Films",
+  "tv_shows": "Séries TV",
+  "search": "Recherche",
+
+  "made_by": "Créé par",
+  "disclaimer": "Ce projet utilise l'API TMDB mais n'est pas approuvé ou certifié par TMDB.",
+  "data_provided_by": "Données fournies par"
+}

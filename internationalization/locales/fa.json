@@ -1,0 +1,67 @@
+{
+  "popular_movies": "فیلم‌های محبوب",
+  "top_rated_movies": "فیلم‌های برتر",
+  "upcoming_movies": "فیلم‌های آینده",
+  "now_playing_movies": "فیلم‌های در حال پخش",
+  "popular_tv_shows": "سریال‌های محبوب",
+  "top_rated_tv_shows": "سریال‌های برتر",
+  "tv_shows_airing_today": "سریال‌های پخش امروز",
+
+  "watch_trailer": "تماشای پیش‌نمایش",
+  "explore_more": "بیشتر کاوش کنید",
+
+  "overview": "مروری کلی",
+  "videos": "ویدیوها",
+  "media_photos": "عکس‌ها",
+
+  "cast": "بازیگران اصلی",
+  "more_like_this": "موارد بیشتر مانند این",
+
+  "storyline": "داستان",
+  "release_date": "تاریخ انتشار",
+  "runtime": "مدت زمان",
+  "director": "کارگردان",
+  "budget": "بودجه",
+  "revenue": "درآمد",
+  "genre": "ژانر",
+  "status": "وضعیت",
+  "language": "زبان",
+  "production": "تولید",
+
+  "backdrops": "پس‌زمینه‌ها",
+  "posters": "پوسترها",
+
+  "known_for": "شناخته شده برای",
+  "credits": "اعتبارها",
+  "person_photos": "عکس‌ها",
+  "no_biography": "(بیوگرافی وجود ندارد)",
+  "place_of_birth": "محل تولد",
+  "birthday": "تولد",
+
+  "acting_credits": "بازیگری",
+  "production_credits": "تولید",
+
+  "type_to_search": "برای جستجو تایپ کنید...",
+  "type_something_to_search": "چیزی برای جستجو تایپ کنید",
+
+  "number_of_reviews": "{numberOfReviews} نقد",
+  "number_of_images": "{numberOfImages} تصویر",
+  "number_of_videos": "{numberOfVideos} ویدیو",
+
+  "as_character": "به عنوان {character}",
+  "count_items": "{count} مورد",
+  "empty_list": "داده‌ای موجود نیست",
+  "search_result_for": "نتایج جستجو برای: {currentSearch}",
+
+  "error_occurred_on_fetching": "خطا در دریافت اطلاعات",
+  "retry": "تلاش مجدد",
+
+  "home": "خانه",
+  "movies": "فیلم‌ها",
+  "tv_shows": "سریال‌ها",
+  "search": "جستجو",
+
+  "made_by": "ساخته شده توسط",
+  "disclaimer": "این پروژه از TMDB API استفاده می‌کند اما توسط TMDB تایید یا حمایت نمی‌شود.",
+  "data_provided_by": "داده‌ها ارائه شده توسط"
+}

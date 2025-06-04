@@ -1,0 +1,67 @@
+{
+  "popular_movies": "人気の映画",
+  "top_rated_movies": "高評価の映画",
+  "upcoming_movies": "公開予定の映画",
+  "now_playing_movies": "上映中の映画",
+  "popular_tv_shows": "人気のテレビ番組",
+  "top_rated_tv_shows": "高評価のテレビ番組",
+  "tv_shows_airing_today": "今日放送されるテレビ番組",
+
+  "watch_trailer": "予告編を見る",
+  "explore_more": "もっと見る",
+
+  "overview": "概要",
+  "videos": "動画",
+  "media_photos": "写真",
+
+  "cast": "出演者",
+  "more_like_this": "これに似た作品",
+
+  "storyline": "あらすじ",
+  "release_date": "公開日",
+  "runtime": "上映時間",
+  "director": "監督",
+  "budget": "予算",
+  "revenue": "収益",
+  "genre": "ジャンル",
+  "status": "ステータス",
+  "language": "言語",
+  "production": "制作",
+
+  "backdrops": "背景画像",
+  "posters": "ポスター",
+
+  "known_for": "代表作",
+  "credits": "クレジット",
+  "person_photos": "写真",
+  "no_biography": "（伝記なし）",
+  "place_of_birth": "出生地",
+  "birthday": "誕生日",
+
+  "acting_credits": "出演",
+  "production_credits": "制作",
+
+  "type_to_search": "検索するには入力してください...",
+  "type_something_to_search": "検索するために何か入力してください",
+
+  "number_of_reviews": "{numberOfReviews} 件のレビュー",
+  "number_of_images": "{numberOfImages} 枚の画像",
+  "number_of_videos": "{numberOfVideos} 本の動画",
+
+  "as_character": "{character} 役として",
+  "count_items": "{count} 件",
+  "empty_list": "データがありません",
+  "search_result_for": "{currentSearch} の検索結果",
+
+  "error_occurred_on_fetching": "取得中にエラーが発生しました",
+  "retry": "再試行",
+
+  "home": "ホーム",
+  "movies": "映画",
+  "tv_shows": "テレビ番組",
+  "search": "検索",
+
+  "made_by": "作成者",
+  "disclaimer": "このプロジェクトはTMDB APIを使用していますが、TMDBによって承認または認証されていません。",
+  "data_provided_by": "データ提供元"
+}

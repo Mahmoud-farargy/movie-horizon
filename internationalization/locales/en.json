@@ -1,0 +1,67 @@
+{
+  "popular_movies": "Popular Movies",
+  "top_rated_movies": "Top Rated Movies",
+  "upcoming_movies": "Upcoming Movies",
+  "now_playing_movies": "Now Playing Movies",
+  "popular_tv_shows": "Popular TV Shows",
+  "top_rated_tv_shows": "Top Rated TV Shows",
+  "tv_shows_airing_today": "TV Shows Airing Today",
+
+  "watch_trailer": "Watch Trailer",
+  "explore_more": "Explore more",
+
+  "overview": "Overview",
+  "videos": "Videos",
+  "media_photos": "Photos",
+
+  "cast": "Top Cast",
+  "more_like_this": "More like this",
+
+  "storyline": "Storyline",
+  "release_date": "Released",
+  "runtime": "Runtime",
+  "director": "Director",
+  "budget": "Budget",
+  "revenue": "Revenue",
+  "genre": "Genre",
+  "status": "Status",
+  "language": "Language",
+  "production": "Production",
+
+  "backdrops": "Backdrops",
+  "posters": "Posters",
+
+  "known_for": "Known For",
+  "credits": "Credits",
+  "person_photos": "Photos",
+  "no_biography": "(no biography)",
+  "place_of_birth": "Place of birth",
+  "birthday": "Birthday",
+
+  "acting_credits": "Acting",
+  "production_credits": "Production",
+
+  "type_to_search": "Type to search...",
+  "type_something_to_search": "Type something to search",
+
+  "number_of_reviews": "{numberOfReviews} Reviews",
+  "number_of_images": "{numberOfImages} Images",
+  "number_of_videos": "{numberOfVideos} Videos",
+
+  "as_character": "as {character}",
+  "count_items": "{count} items",
+  "empty_list": "No data available",
+  "search_result_for": "Search result for: {currentSearch}",
+
+  "error_occurred_on_fetching": "Error occurred on fetching",
+  "retry": "Retry",
+
+  "home": "Home",
+  "movies": "Movies",
+  "tv_shows": "TV Shows",
+  "search": "Search",
+
+  "made_by": "Made by",
+  "disclaimer": "This project uses the TMDB API but is not endorsed or certified by TMDB.",
+  "data_provided_by": "Data provided by"
+}

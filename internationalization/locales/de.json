@@ -1,0 +1,67 @@
+{
+  "popular_movies": "Beliebte Filme",
+  "top_rated_movies": "Topbewertete Filme",
+  "upcoming_movies": "Demnächst erscheinende Filme",
+  "now_playing_movies": "Aktuell laufende Filme",
+  "popular_tv_shows": "Beliebte Fernsehsendungen",
+  "top_rated_tv_shows": "Topbewertete Fernsehsendungen",
+  "tv_shows_airing_today": "Heute ausgestrahlte Fernsehsendungen",
+
+  "watch_trailer": "Trailer ansehen",
+  "explore_more": "Mehr entdecken",
+
+  "overview": "Übersicht",
+  "videos": "Videos",
+  "media_photos": "Fotos",
+
+  "cast": "Top-Besetzung",
+  "more_like_this": "Mehr davon",
+
+  "storyline": "Handlung",
+  "release_date": "Veröffentlichungsdatum",
+  "runtime": "Laufzeit",
+  "director": "Regisseur",
+  "budget": "Budget",
+  "revenue": "Einnahmen",
+  "genre": "Genre",
+  "status": "Status",
+  "language": "Sprache",
+  "production": "Produktion",
+
+  "backdrops": "Hintergründe",
+  "posters": "Poster",
+
+  "known_for": "Bekannt für",
+  "credits": "Mitwirkende",
+  "person_photos": "Fotos",
+  "no_biography": "(keine Biografie)",
+  "place_of_birth": "Geburtsort",
+  "birthday": "Geburtstag",
+
+  "acting_credits": "Schauspiel",
+  "production_credits": "Produktion",
+
+  "type_to_search": "Tippen zum Suchen...",
+  "type_something_to_search": "Geben Sie etwas zum Suchen ein",
+
+  "number_of_reviews": "{numberOfReviews} Bewertungen",
+  "number_of_images": "{numberOfImages} Bilder",
+  "number_of_videos": "{numberOfVideos} Videos",
+
+  "as_character": "als {character}",
+  "count_items": "{count} Artikel",
+  "empty_list": "Keine Daten verfügbar",
+  "search_result_for": "Suchergebnis für: {currentSearch}",
+
+  "error_occurred_on_fetching": "Fehler beim Laden",
+  "retry": "Erneut versuchen",
+
+  "home": "Startseite",
+  "movies": "Filme",
+  "tv_shows": "Fernsehsendungen",
+  "search": "Suche",
+
+  "made_by": "Erstellt von",
+  "disclaimer": "Dieses Projekt verwendet die TMDB-API, ist jedoch nicht von TMDB unterstützt oder zertifiziert.",
+  "data_provided_by": "Daten bereitgestellt von"
+}

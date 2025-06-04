@@ -1,0 +1,67 @@
+{
+  "popular_movies": "Популярные фильмы",
+  "top_rated_movies": "Лучшие фильмы",
+  "upcoming_movies": "Скоро выйдут",
+  "now_playing_movies": "Сейчас в кино",
+  "popular_tv_shows": "Популярные сериалы",
+  "top_rated_tv_shows": "Лучшие сериалы",
+  "tv_shows_airing_today": "Сериалы, идущие сегодня",
+
+  "watch_trailer": "Смотреть трейлер",
+  "explore_more": "Узнать больше",
+
+  "overview": "Обзор",
+  "videos": "Видео",
+  "media_photos": "Фотографии",
+
+  "cast": "Основной состав",
+  "more_like_this": "Похожие",
+
+  "storyline": "Сюжет",
+  "release_date": "Дата выхода",
+  "runtime": "Продолжительность",
+  "director": "Режиссёр",
+  "budget": "Бюджет",
+  "revenue": "Доход",
+  "genre": "Жанр",
+  "status": "Статус",
+  "language": "Язык",
+  "production": "Производство",
+
+  "backdrops": "Фоны",
+  "posters": "Плакаты",
+
+  "known_for": "Известен за",
+  "credits": "Кредиты",
+  "person_photos": "Фотографии",
+  "no_biography": "(биография отсутствует)",
+  "place_of_birth": "Место рождения",
+  "birthday": "День рождения",
+
+  "acting_credits": "Актёрская игра",
+  "production_credits": "Производство",
+
+  "type_to_search": "Введите для поиска...",
+  "type_something_to_search": "Введите что-нибудь для поиска",
+
+  "number_of_reviews": "{numberOfReviews} отзывов",
+  "number_of_images": "{numberOfImages} изображений",
+  "number_of_videos": "{numberOfVideos} видео",
+
+  "as_character": "в роли {character}",
+  "count_items": "{count} элементов",
+  "empty_list": "Нет данных",
+  "search_result_for": "Результаты поиска для: {currentSearch}",
+
+  "error_occurred_on_fetching": "Ошибка при загрузке",
+  "retry": "Повторить",
+
+  "home": "Главная",
+  "movies": "Фильмы",
+  "tv_shows": "Сериалы",
+  "search": "Поиск",
+
+  "made_by": "Создано",
+  "disclaimer": "Этот проект использует API TMDB, но не одобрен и не сертифицирован TMDB.",
+  "data_provided_by": "Данные предоставлены"
+}
