@@ -21,7 +21,7 @@ export default function PersonPhotos({ item }: { item: PersonItem }) {
         <div className="text-2xl">{$t("person_photos")}</div>
         <div className="text-sm opacity-50">
           {$t("number_of_images", {
-            numberOfImages: item.images?.profiles?.length,
+            numberOfImages: item.images?.profiles?.length ?? 0,
           })}
         </div>
       </div>

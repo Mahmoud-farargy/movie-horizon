@@ -5,7 +5,7 @@ import type { MediaItem, MediaType } from "@/types";
 import { fetchGenre } from "@/actions";
 import { getGenreList } from "@/helpers/tmdb";
 
-export default async function CategoryPage({params} : { params: {type: MediaType, id: string}}) {
+export default async function CategoryPage({params} : { params: Promise<{type: MediaType, id: string}>}) {
   const { id = "" } = await params;
   const type = "tv" as MediaType;
   const initialPage = 1;

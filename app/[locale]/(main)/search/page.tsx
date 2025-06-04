@@ -4,22 +4,22 @@ import { SearchInput, MediaList } from "@/components";
 import { fetchSearch } from "@/actions";
 import type { MediaItem } from "@/types";
 import { APP_INFO } from "@/helpers/constants/appInfo";
-
-export async function generateMetadata( { searchParams } : {
-  searchParams: { s?: string };
-}) {
-  const currentSearch = searchParams?.s?.trim() ?? '';
+type SearchPageProps = {
+  searchParams: Promise<{ s?: string }>;
+}
+export async function generateMetadata( { searchParams } : SearchPageProps) {
+  const params = await searchParams;
+  const currentSearch = params?.s?.trim() ?? '';
   return {
      title: currentSearch ? `Search for: ${currentSearch} : ${APP_INFO.name}` : 'Search',
   };
 }
 
-export default async function Search({ searchParams }: {
-  searchParams: { s?: string };
-}) {
+export default async function Search({ searchParams }: SearchPageProps) {
+  const params = await searchParams;
   const $t = await getTranslations();
   const initialPage = 1;
-  const currentSearch = searchParams?.s?.trim() ?? '';
+  const currentSearch = params?.s?.trim() ?? '';
   
   let error: unknown;
   let initialItems: MediaItem[] = [];

@@ -7,18 +7,21 @@ import { QUERY_LIST } from "@/helpers/constants/index";
 import { Fragment } from "react";
 import { APP_INFO } from "@/helpers/constants/appInfo";
 
+type MainMediaPageProps = {
+  params: Promise<{ type: MediaType; id: string }>
+}
+
 export async function generateMetadata({
   params,
-}: {
-  params: Promise<{ type: MediaType; id: string }>;
-}) {
+}: MainMediaPageProps) {
   const { type } = await params;
   return {
      title: `${type}: ${APP_INFO.name}`,
   };
 }
 
-export default async function Media({ params }: { params: { type: string } }) {
+export default async function Media(props: MainMediaPageProps) {
+  const params = await props.params;
   const locale = await getLocale();
   const typeParam = (params?.type as MediaType) || "movie";
   const queries = QUERY_LIST[typeParam];
