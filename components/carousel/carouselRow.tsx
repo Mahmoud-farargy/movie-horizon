@@ -22,7 +22,7 @@ export default function CarouselRow({
   };
   return (
     <Fragment>
-      <div className="flex justify-between py-3 px-5 md:px-10 items-center mt-5">
+      <div className="flex justify-between py-3 px-3 md:px-5 lg:px-10 items-center mt-5">
         {/* === Row Title === */}
         <div className="text-lg md:text-xl lg:text-2xl text-ellipsis">{titleNode}</div>
 
@@ -31,7 +31,7 @@ export default function CarouselRow({
       </div>
       <div className="relative">
         <div ref={scrollContainer} className="overflow-y-auto overscroll-x-none scroll-smooth">
-          <div className="flex gap-2 w-max py-2 px-5 md:px-10">{children}</div>
+          <div className="flex gap-2 w-max py-2 px-3 md:px-5 lg:px-10">{children}</div>
         </div>
         {/* === Scroll to Left Button === */}
         <button

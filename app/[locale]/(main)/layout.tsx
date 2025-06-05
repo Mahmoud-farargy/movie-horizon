@@ -11,7 +11,7 @@ export default function MainLayout({
     <Fragment>
       <div className="grid grid-rows-[1fr_max-content] lg:grid-cols-[max-content_1fr] transition-colors w-full h-full overflow-hidden">
         {/* === Scroll Container === */}
-        <div className="relative overflow-x-hidden overflow-y-auto w-full">
+        <div className="relative overflow-x-hidden overflow-y-auto w-full pb-5 lg:pb-1">
           <main className="min-h-svh">{children}</main>
           {/* == Footer == */}
           <Footer />

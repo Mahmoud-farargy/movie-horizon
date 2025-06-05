@@ -15,7 +15,7 @@ function NavBar() {
     return activePath === route;
   }
   return (
-    <aside className="fixed z-[10] lg:z-auto lg:relative bottom-0 w-full lg:w-max lg:h-full bg-black py-[1rem] md:py-[1.25rem] md:p-[1.25rem] border-t lg:order-[-100] lg:border-r border-mainBorder ">
+    <aside className="fixed z-[10] lg:z-auto lg:relative bottom-0 w-full lg:w-max lg:h-full bg-black py-[1rem] md:py-[1.25rem] md:p-[1.25rem] border-t lg:order-[-100] lg:border-r border-mainBorder">
       <ul className="flex row lg:flex-col justify-evenly h-full">
         <li>
           <NextLink href={`/${locale}`} title={$t("home")}>
