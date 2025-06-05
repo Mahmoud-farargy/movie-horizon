@@ -1,6 +1,6 @@
 "use client";
 import { useCallback } from "react";
-import type { PersonItem, PhotoItem } from "@/types";
+import type { PersonItem } from "@/types";
 import { PhotoCard, NotAvailableList } from "@/components";
 import { useTranslations } from "next-intl";
 import { useAppContext } from "@/context";
@@ -8,12 +8,9 @@ import { useAppContext } from "@/context";
 export default function PersonPhotos({ item }: { item: PersonItem }) {
   const $t = useTranslations();
   const { setImages } = useAppContext();
-  const showImage = useCallback(
-    (profileImages: PhotoItem[], index: number) => {
-      setImages({list: profileImages, initialIndex: index});
-    },
-    [setImages]
-  );
+  const openImage = useCallback((item: PersonItem, index: number) =>{
+    setImages({list: item?.images?.profiles || [], initialIndex: index});
+  }, [setImages]);
   return (
     <div className="flex flex-col px-6 md:px-16 gap-6">
       {/* == Title & Items count == */}
@@ -33,7 +30,7 @@ export default function PersonPhotos({ item }: { item: PersonItem }) {
               key={imageItem.file_path}
               item={imageItem}
               className="aspect-[9/16] w-full h-full"
-              onClick={() => showImage(item?.images?.profiles || [], index)}
+              onClick={() => openImage(item, index)}
             />
           ))}
         </div>

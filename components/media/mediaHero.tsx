@@ -5,7 +5,7 @@ import { StarsRate } from "@/components";
 import { formatVote, formatTime } from "@/helpers/utils";
 import { IMDB_IMAGE_BASE_URL } from "@/helpers/constants";
 import { useTranslations } from "next-intl";
-import { Fragment, memo, useMemo } from "react";
+import { Fragment, memo, useCallback, useMemo } from "react";
 import { Icon } from "@iconify/react/dist/iconify.js";
 import { useAppContext } from "@/context";
 import { getTrailer } from "@/helpers/utils"
@@ -14,11 +14,11 @@ function MediaHero({ item }: {item: MediaItem}) {
   const $t = useTranslations();
   const trailer = useMemo(() => getTrailer(item), [item]);
   const { setIframeSrc } = useAppContext();
-  const playTrailer = (event: React.MouseEvent<HTMLButtonElement>) => {
+  const playTrailer = useCallback((event: React.MouseEvent<HTMLButtonElement>) => {
     event.preventDefault();
     event.stopPropagation();
     setIframeSrc(trailer);
-  }
+  }, [setIframeSrc, trailer]);
   return (
       <Fragment>
       <div key={item.id} className="relative aspect-[3/2] lg:aspect-[25/9] bg-black min-h-[20rem]">

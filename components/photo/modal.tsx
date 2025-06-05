@@ -1,6 +1,6 @@
 "use client";
 import { useAppContext } from "@/context"
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { CardImage } from "@/components";
 import { IMDB_IMAGE_BASE_URL } from "@/helpers/constants";
 import { Icon } from "@iconify/react/dist/iconify.js";
@@ -35,9 +35,9 @@ export default function PhotoModal() {
     ));
   }
 
-  const resetImages = () => {
+  const resetImages = useCallback(() => {
     setImages({list: [], initialIndex: 0});
-  };
+  }, [setImages]);
 
   return (
     <>

@@ -1,5 +1,5 @@
 "use client";
-import { Fragment, memo, useState } from "react";
+import { Fragment, memo, useCallback, useState } from "react";
 
 function Tabs({
   tabItems,
@@ -11,7 +11,9 @@ function Tabs({
   }[];
 }) {
   const [tab, setTab] = useState<number>(0);
-
+  const changeCurrentTab = useCallback((index: number) => {
+    setTab(index)
+  }, []);
   return (
     <Fragment>
       {/* == Tab buttons == */}
@@ -22,7 +24,7 @@ function Tabs({
             return (
               <button
                 key={tabItem.tab}
-                onClick={() => setTab(index)}
+                onClick={() => changeCurrentTab(index)}
                 className={`${
                   isActive
                     ? "opacity-100 border-white"

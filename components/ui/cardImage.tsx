@@ -1,5 +1,5 @@
 'use client';
-import { useState } from "react";
+import { useCallback, useState } from "react";
 import NextImage from "next/image";
 import type  { ImageProps } from "next/image";
 import { Icon } from "@iconify/react/dist/iconify.js";
@@ -23,9 +23,9 @@ export default function CardImage({
   const [hasError, setErrorState] = useState(!Boolean(src));
   // const [isLoading, setLoadingState] = useState<boolean>(true);
 
-  const handleError = () => {
+  const handleError = useCallback(() => {
     setErrorState(true);
-  };
+  },[]);
   // const handleLoadingState = useCallback((newState: boolean) => {
   //   setLoadingState(newState);
   // }, []);

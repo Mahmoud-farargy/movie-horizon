@@ -1,7 +1,7 @@
 'use client';
 import { Icon } from "@iconify/react/dist/iconify.js";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useCallback, useState } from "react";
 import { useTranslations } from "use-intl";
 import { useSearchParams } from 'next/navigation';
 
@@ -12,16 +12,17 @@ export default function SearchInput() {
     const [value, setInputValue] = useState(query || "");
     const $t = useTranslations();
 
-    const searchWord = () => {
+    const searchWord = useCallback(() => {
         router.replace(`?s=${encodeURIComponent(value)}`); 
-    }
-    const handleKeyup = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    }, [router, value]);
+    
+    const handleKeyup = useCallback((e: React.KeyboardEvent<HTMLInputElement>) => {
       const isEnterKey = e.key === 'Enter';
      
       if(isEnterKey){
         searchWord();
       }
-    }
+    }, [searchWord]);
    
   return (
     <div className="flex bg-[#9ca3af1a] items-center px-6 py-4 gap-3 sticky">
